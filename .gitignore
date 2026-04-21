@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local data and generated artifacts
+artifacts/
+data/raw/*
+data/interim/*
+data/processed/*
+data/external/*
+reports/results/*
+reports/figures/*
+
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+!reports/results/.gitkeep
+!reports/figures/.gitkeep

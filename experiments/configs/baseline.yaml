@@ -1,0 +1,26 @@
+project_name: toxic-comment-moderation-low-resource
+seed: 42
+
+data:
+  dataset_name: multilingual_toxic_comments
+  source_url: https://github.com/AkshayaANANTAM/Multilingual-Toxic-comments-classification
+  raw_dir: data/raw
+  raw_csv: data/raw/multilingual_toxic_comments.csv
+  interim_dir: data/interim
+  processed_dir: data/processed/multilingual_toxic_comments
+  train_csv: data/processed/multilingual_toxic_comments/train.csv
+  validation_csv: data/processed/multilingual_toxic_comments/validation.csv
+  test_csv: data/processed/multilingual_toxic_comments/test.csv
+
+model:
+  baseline_name: logistic_regression
+  transformer_name: slm
+  max_length: 256
+
+training:
+  batch_size: 16
+  learning_rate: 2.0e-5
+  epochs: 3
+
+evaluation:
+  average: macro

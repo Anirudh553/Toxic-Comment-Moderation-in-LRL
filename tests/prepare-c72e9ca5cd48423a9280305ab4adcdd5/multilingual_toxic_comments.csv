@@ -1,0 +1,11 @@
+id,comment_text,toxic,lang
+1,Helpful advice,0,en
+2,You are terrible,1,en
+3,What a great answer,0,hi
+4,Such a toxic reply,1,hi
+5,Very kind response,0,es
+6,Awful and rude,1,es
+7,Thanks for sharing,0,fr
+8,Horrible behavior,1,fr
+9,This is useful,0,de
+10,You idiot,1,de

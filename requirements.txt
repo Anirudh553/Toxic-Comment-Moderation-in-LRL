@@ -1,0 +1,16 @@
+pandas
+numpy
+scikit-learn
+joblib
+torch
+transformers
+accelerate
+datasets
+evaluate
+sentencepiece
+PyYAML
+emoji
+matplotlib
+seaborn
+pytest
+jupyter

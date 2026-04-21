@@ -1,0 +1,11 @@
+id,comment_text,toxic,lang
+1,helpful answer,0,en
+2,you are disgusting,1,en
+3,thank you friend,0,hi
+4,idiot comment,1,hi
+5,what a kind note,0,es
+6,terrible message,1,es
+7,great support,0,fr
+8,awful reply,1,fr
+9,very useful,0,de
+10,pathetic troll,1,de

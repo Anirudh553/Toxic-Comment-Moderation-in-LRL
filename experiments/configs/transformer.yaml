@@ -1,0 +1,30 @@
+project_name: toxic-comment-moderation-low-resource
+seed: 42
+
+data:
+  dataset_name: multilingual_toxic_comments
+  source_url: https://github.com/AkshayaANANTAM/Multilingual-Toxic-comments-classification
+  raw_dir: data/raw
+  raw_csv: data/raw/multilingual_toxic_comments.csv
+  interim_dir: data/interim
+  processed_dir: data/processed/multilingual_toxic_comments
+  train_csv: data/processed/multilingual_toxic_comments/train.csv
+  validation_csv: data/processed/multilingual_toxic_comments/validation.csv
+  test_csv: data/processed/multilingual_toxic_comments/test.csv
+
+model:
+  transformer_name: slm
+  alternative_transformer_name: xlm-roberta-base
+  hinglish_transformer_name: muril
+  label_mode: binary
+  max_length: 256
+  num_labels: 2
+
+training:
+  batch_size: 8
+  learning_rate: 2.0e-5
+  epochs: 3
+  weight_decay: 0.01
+
+evaluation:
+  average: macro

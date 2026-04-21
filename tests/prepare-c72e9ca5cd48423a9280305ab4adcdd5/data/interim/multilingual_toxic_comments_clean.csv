@@ -1,0 +1,11 @@
+text,label,language,id
+Helpful advice,0,en,1
+You are terrible,1,en,2
+What a great answer,0,hi,3
+Such a toxic reply,1,hi,4
+Very kind response,0,es,5
+Awful and rude,1,es,6
+Thanks for sharing,0,fr,7
+Horrible behavior,1,fr,8
+This is useful,0,de,9
+You idiot,1,de,10

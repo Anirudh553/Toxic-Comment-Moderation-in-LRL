@@ -1,0 +1,32 @@
+{
+  "dataset_name": "multilingual_toxic_comments",
+  "source_csv": "tests\\prepare-12623ece14884ac7b3e699080c201352\\multilingual_toxic_comments.csv",
+  "source_url": "https://github.com/AkshayaANANTAM/Multilingual-Toxic-comments-classification",
+  "row_counts": {
+    "raw": 10,
+    "clean": 10,
+    "train": 6,
+    "validation": 2,
+    "test": 2
+  },
+  "label_distribution": {
+    "0": 5,
+    "1": 5
+  },
+  "available_label_modes": [
+    "binary"
+  ],
+  "language_distribution": {
+    "de": 2,
+    "en": 2,
+    "es": 2,
+    "fr": 2,
+    "hi": 2
+  },
+  "files": {
+    "clean_csv": "tests\\prepare-12623ece14884ac7b3e699080c201352\\data\\interim\\multilingual_toxic_comments_clean.csv",
+    "train_csv": "tests\\prepare-12623ece14884ac7b3e699080c201352\\data\\processed\\multilingual_toxic_comments\\train.csv",
+    "validation_csv": "tests\\prepare-12623ece14884ac7b3e699080c201352\\data\\processed\\multilingual_toxic_comments\\validation.csv",
+    "test_csv": "tests\\prepare-12623ece14884ac7b3e699080c201352\\data\\processed\\multilingual_toxic_comments\\test.csv"
+  }
+}
